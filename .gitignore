@@ -23,6 +23,21 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE and OS
+.idea/
+.DS_Store
+*.DS_Store
+
+# ML-Agents outputs
+/results/
+/[Aa]ssets/ML-Agents/
+/[Aa]ssets/ML-Agents.meta
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
